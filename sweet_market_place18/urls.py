@@ -22,7 +22,8 @@ from django.conf.urls.static import static #Importam static ul din django sa nu 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include("sweet_market_place18_app.urls")),#Modificare sa includem url urile
-    path('', include('django.contrib.auth.urls')), #Modificare sa includem url urile din django
+    path('', include('django.contrib.auth.urls')),#Modificare sa includem url urile din django
+    path('account/', include('account.urls')),
 ]
 
 if settings.DEBUG: #Verificam daca proiectul nostru ruleaza in DEBUG
