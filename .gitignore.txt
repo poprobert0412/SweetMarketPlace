@@ -1,0 +1,14 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+#Virtual environment
+venv/
+
+#Fisiere generate de django
+
+*.log
+*.pot
+*.pyc
+__pychace__/
+db.sqlite3-journal
+db.sqlite3
